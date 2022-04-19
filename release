@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#
+
+pkg="colorblind-fluids"
+
+version="$(jq -r .version < ./"$pkg"/info.json)"
+
+(set -x ; zip -r "$pkg"_"$version".zip ./"$pkg")

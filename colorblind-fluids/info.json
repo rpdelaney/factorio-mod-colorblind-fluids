@@ -1,0 +1,11 @@
+{
+  "name": "colorblind-fluids",
+  "version": "0.0.1",
+  "title": "Colorblind Fluids",
+  "author": "AnEntireSleeve",
+  "description": "Changes colors of fluid icons to make them more colorblind friendly",
+  "dependencies": [
+        "base >= 1.1.53"
+  ],
+  "factorio_version": "1.1"
+}
